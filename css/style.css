@@ -1,0 +1,566 @@
+body {
+	margin: 0;
+	padding: 0;
+	color: #6a6651;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px;
+	line-height: 1.4em; 
+	background-color: #faf8ec; 
+}
+
+a, a:link, a:visited { 
+	color: #d46643; 
+	font-weight: normal; 
+	text-decoration: none; 
+}
+
+a:hover { 
+	text-decoration: underline; 
+}
+
+p { 
+	margin: 0 0 20px 0; 
+	padding: 0; 
+}
+
+img { 
+	border: none; 
+}
+
+em { 
+	color: #d46643; 
+}
+
+blockquote { 
+	font-style: italic; 
+	margin: 0 0 0 10px;
+}
+
+cite { 
+	font-weight: bold; 
+	color:#d46643; 
+}
+
+cite a, cite a:link, cite a:visited  { 
+	font-size: 12px; 
+	text-decoration: none; 
+	font-style: normal;
+}
+
+cite span { 
+	font-weight: 400; 
+	color: #a9a488; 
+}
+
+.imgage-with-frame { 
+	padding: 4px; 
+	border: 1px solid #a6a28d; 
+}
+
+.image_fl { 
+	float: left; 
+	margin: 3px 20px 5px 0; 
+}
+
+.image_fr { 
+	float: right; 
+	margin: 3px 0 5px 20px; 
+}
+
+h1, h2, h3, h4, h5, h6 { color: #333; font-weight: normal; font-family: Georgia, "Times New Roman", Times, serif }
+h1 { font-size: 48px; margin: 0 0 30px; padding: 5px 0 }
+h2 { font-size: 24px; margin: 0 0 25px; padding: 3px 0 }
+h3 { font-size: 20px; margin: 0 0 20px; padding: 0; }
+h4 { font-size: 18px; margin: 0 0 15px; padding: 0; }
+h5 { font-size: 16px; margin: 0 0 10px; padding: 0;  }
+h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
+
+.cleaner { clear: both }
+.h10 { height: 10px }
+.h20 { height: 20px }
+.h30 { height: 30px }
+.h40 { height: 40px }
+.h50 { height: 50px }
+
+.mb10 { margin-bottom: 10px }
+
+.float_l { float: left }
+.float_r { float: right }
+
+.templatemo_list { 
+	margin: 10px 0 10px 10px; 
+	padding: 0; 
+	list-style: none;
+}
+
+.templatemo_list li { 
+	color:#58503f; 
+	margin: 0 0 10px ; 
+	padding: 0 5px 0 18px; 
+	background: url(../images/list-tick.png) no-repeat scroll 0 4px;  
+}
+
+.templatemo_list li.flow { 
+	display: block; 
+	float: left; 
+	width: 180px; 
+	margin-right: 20px; 
+}
+
+.templatemo_list li.nomr { 
+	margin-right: 0; 
+}
+
+.templatemo_list li a { 
+	color: #58503f; 
+	font-weight: normal; 
+}
+.templatemo_list li a:hover { 
+	color: #9e1906; 
+}
+.templatemo_list li.flow a,
+.templatemo_list li.flow a:hover{ cursor: text; color: #58503f; text-decoration: none;} 
+
+#templatemo_header_wrapper {
+	width: 100%;
+	height: 140px;
+	background: url(../images/templatemo_header.jpg) repeat-x
+}
+#templatemo_header {
+	width: 960px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+#templatemo_slider_wrapper {
+	width: 100%;
+	height: 420px;
+	background: #aca177 url(../images/templatemo_slider.jpg) no-repeat center top
+}
+
+#templatemo_main_wrapper {
+	width: 100%;
+	background: url(../images/templatemo_main.jpg) repeat-x top
+}
+
+#templatemo_main {
+	width: 960px;
+	padding: 60px 10px;
+	margin: 0 auto;
+}
+#templatemo_main .no_style,
+#templatemo_main .no_style:hover{ cursor: text; text-decoration: none; color: #6a6651;}
+
+#templatemo_footer_wrapper {
+	width: 100%;
+	background: #38362d;
+	border-top: 5px solid #ffffff
+}
+#templatemo_footer {
+	width: 960px;
+	padding: 30px 10px;
+	margin: 0 auto;
+}
+
+#site_title { 
+	float: right; 
+}
+
+#site_title_img {
+	float: right; 
+	margin-top: 50px;
+	display: block; 
+	width: 60px; 
+	height: 60px; 
+}
+
+#site_title_img img {
+	width: 60px; 
+	height: 60px; 
+}
+
+#site_title_text {
+	float: right; 
+	display: block; 
+	width: 240px; 
+	height: 100px; 
+	margin-right: 10px;
+	margin-top: 50px;
+}
+
+#site_title_text h2 { 
+	padding: 0;
+	margin: 0;
+	font-size: 14px; 
+	line-height: 18px;
+}
+
+#site_title_text h1 { 
+	padding: 0;
+	margin: 0;
+	font-size: 20px; 
+	line-height: 25px;
+}
+
+#site_title_text h1 a { 
+	font-size: 20px; 
+	font-weight: bold;
+	font-family: Georgia, "Times New Roman", Times, serif; 
+	color: #acacac; 
+}
+
+#site_title_text h1 a:hover { 
+	text-decoration: none;
+	color: #000;
+
+}	
+
+#templatemo_menu { float: left }
+
+.homepage_post { 
+	margin-bottom: 40px; 
+}
+
+.homepage_post h2 { 
+	margin-bottom: 0; 
+}
+
+.homepage_post .post_meta { 
+	font-style: italic; 
+	font-size: 11px; 
+	margin-bottom: 20px; 
+}
+
+#food-gallery img, #food-gallery h2 { margin-bottom: 20px; }
+
+.testimonial { 
+	padding: 0 0 20px; 
+	margin-bottom: 30px;  
+	border-bottom: 1px dotted #bfb7a8; 
+	display: block; 
+}
+
+.testimonial p { 
+	margin-bottom: 5px; 
+}
+
+.gallery_box { 
+	float: left; 
+	width: 220px; 
+	margin: 0 20px 20px 0; 
+	text-align: center; 
+}
+
+.gallery_box img { 
+	margin-bottom: 10px; 
+}
+
+.gallery_box h2 { 
+	font-size: 12px; 
+	font-weight: 700; 
+	margin-bottom:0; 
+}
+.gallery_box h2 a,
+.gallery_box h2 a:hover{ cursor: text; text-decoration: none; color: #333; font-weight: 700;} 
+
+.gallery_box p { 
+	font-size: 11px; 
+}
+
+.post { 
+	margin-bottom: 60px; 
+}
+
+.post .post_image { 
+	width: 600px; 
+	position: relative; 
+	padding: 4px; 
+	border: 1px solid #a6a28d; 
+	margin-bottom: 20px;
+}
+
+.post .post_image .date { 
+	position: absolute; 
+	width: 114px; 
+	height: 40px; 
+	top: 10px; 
+	left: -7px; 
+	background: url(../images/date.png) no-repeat left; 
+	font-size: 11px; 
+	line-height: 32px; 
+	color: #fff; 
+	font-weight: 700; 
+	text-align: center; 
+}
+
+
+form { 
+	padding: 0; 
+	width: 100%; 
+	margin-bottom: 40px; 
+}
+
+form input[type=text] { 
+	width: 270px; 
+	padding: 5px; 
+	color: #222;  
+	background: #fff; 
+	border: 1px solid #ded6c6; 
+	font-size: 12px;
+	font-family: Tahoma, Geneva, sans-serif;
+	margin-top: 5px;
+}
+
+form label { 
+	display: block; 
+	width: 200px; 
+	margin-right: 12px; 
+	font-size: 12px; 
+}
+
+form textarea { 
+	width: 398px; 
+	height: 200px; 
+	padding: 5px; 
+	color: #222; 
+	background: #fff; 
+	border: 1px solid #ded6c6; 
+	font-size: 12px;
+	font-family: Tahoma, Geneva, sans-serif;
+	margin-top: 5px;
+}
+
+form .formButton { 
+	padding: 5px 14px; 
+	font-weight: bold;
+	background: #fff; 
+	border: 1px solid #ded6c6; 
+	color: #222; 
+	font-size:12px; 
+	margin-top: 10px;
+}	
+
+.map { 
+	padding: 4px; 
+	border: 1px solid #9c9880; 
+}
+
+.col { float: left; margin: 0 20px 20px 0 }
+.half { width: 460px }
+#sidebar, .one_third { width: 300px }
+#content, .two-third { width: 620px }
+.padding_right { padding-right: 20px }
+.one_fourth { width: 214px; text-align: center; }
+.one_fourth h2 {font-size: 1.4em; padding: 0; margin: 0;}
+.no_margin_right { margin-right: 0 }
+.last_box { margin-bottom: 0; background: none }
+
+.pagging { 
+	margin: 0 0 20px; 
+	padding: 0; 
+}
+
+.pagging ul { 
+	margin: 0; 
+	padding: 0; 
+	list-style: none; 
+}
+
+.pagging ul li { 
+	margin: 0; 
+	padding: 0; 
+	display: inline; 
+}
+
+.pagging ul li a { 
+	float: left; 
+	display: block; 
+	color: #333; 
+	text-decoration: none; 
+	margin-right: 5px; 
+	padding: 5px 10px; 
+	background: #fff; 
+	border: 1px solid #d9d0be; 
+}
+
+.pagging ul li a:hover { 
+	background: #f7b634; 
+	border: 1px solid #fff; 
+	color: #fff;  
+}
+
+#templatemo_footer {
+	color: #ada278;
+	text-align: center
+}
+
+#templatemo_footer a {
+	color: #faf8ec
+}
+
+
+
+/* ===== debug messages ===== */
+#xo-logger-output {
+    font-size:              .8em;
+	margin-bottom:			35px;
+}
+#xo-logger-tabs a:hover {background-color: transparent; color: #fff;}
+table #xo-logger-queries tr {width: 100%;)
+.outer {border: 1px solid silver;}
+.head {background-color: #c2cdd6; padding: 5px; font-weight: bold;}
+.even {background-color: #dee3e7; padding: 5px;}
+.odd {background-color: #E9E9E9; padding: 5px;}
+.foot {background-color: #c2cdd6; padding: 5px; font-weight: bold;}
+tr.even td {background-color: #dee3e7; padding: 5px;}
+tr.odd td {background-color: #E9E9E9; padding: 5px;}
+
+/* ===== main menu block ===== */
+#mainmenu a, #system-block_mainmenu a {
+    display:                block;
+    margin:                 0;
+    padding:                2px;
+    font-weight:            500;
+}
+
+#mainmenu a:hover, #system-block_mainmenu a:hover {
+    text-decoration:        none !important;
+}
+
+#mainmenu a.menuTop, #mainmenu a.menuMain, #system-block_mainmenu a.menuTop, #system-block_mainmenu a.menuMain {
+    padding-left:           8px;
+}
+
+#mainmenu a.menuSub, #system-block_mainmenu a.menuSub {
+    background-color:       inherit;
+    padding-left:           20px;
+    color:                  #294d9f !important;
+    font-size:              .8em;
+    font-style:             normal;
+}
+
+#mainmenu a.menuSub:hover, #system-block_mainmenu a.menuSub:hover {
+    background-color:       inherit;
+    color:                  #000;
+    text-decoration:        underline !important;
+}
+#system-block_mainmenu a.maincurrent, #mainmenu a.maincurrent {background-color:transparent; color:#000 !important; text-decoration: underline !important;}
+#xo-back { text-align: center; }
+/* ===== user menu block ===== */
+#system-block_usermenu {}
+#usermenu a, #system-block_usermenu a {
+    display:                block;
+    padding-bottom:         2px;
+    font-size:              .9em;
+    font-style:             normal;
+}
+
+#usermenu a:hover, #system-block_usermenu a:hover {}
+#usermenu a.menuTop, #system-block_usermenu a.menuTop {}
+#usermenu a.highlight, #system-block_usermenu .highlight {
+    background-color:       #333;
+    color:                  #ff0000;
+}
+
+#system-search {
+    text-align:             center;
+}
+
+#system-search fieldset {
+    margin:                 .5em;
+    padding:                0;
+}
+
+#system-search input[type=text] {
+    width:                  120px;
+    margin:                 0;
+}
+
+#system-login {
+    text-align:             center;
+}
+
+#system-login input {
+    width:                  120px;
+}
+/*=========== Règles nécessaires pour les anciens templates des modules ============*/
+#usermenu a, #mainmenu a { display: block;}
+.xo-canvas-column .menuSub { padding-left: 1em;}
+
+/*============== Styles for system_siteclosed.html =================*/
+#xo-siteclose {
+    width:                  400px;
+    margin:                 100px auto;
+    background-color:       #e2e2e2;
+    padding:                30px;
+    color:                  #000;
+    font-size:              1.2em;
+    font-weight:            bold;
+    text-align:             center;
+    border:                 1px solid #666;
+}
+/*============== Styles for system_redirect.html =================*/
+#xo-redirect {
+    width:                  780px;
+    margin:                 50px auto;
+    padding:                1em;
+    font-weight:            bold;
+    text-align:             center;
+}
+#xo-redirect .notreload {
+    height:                 28px;
+    background-color:       inherit;
+    padding-top:            2px;
+    color:                  #fff;
+}
+#xo-redirect .notreload a {
+    background-color:       inherit;
+    color:                  #ff0000;
+    font-weight:            bold;
+    text-decoration:        none;
+}
+#xo-redirect .message {
+    min-height:             60px;
+    background-color:       #f3f3f3;
+    padding:                1em;
+    color:                  #333;
+    font-size:              1.1em;
+    text-align:             center;
+    border:                 1px solid #666;
+}
+#xo-redirect .message img{
+    padding:                1em;
+}
+
+/*============== Styles for pagenav =================*/
+#xo-pagenav {
+    margin:                 7px 0;
+    text-align:             center;
+    font-size:              1.05em;
+}
+#xo-pagenav a {
+    text-decoration:        none;
+}
+#xo-pagenav a:hover {
+    color:                  #1251c6;
+    background-color:       #c2cdd6;
+    border:                 1px solid #fff;
+}
+.xo-pagact {
+    margin:                 0;
+    padding:                .2em .5em;
+    color:                  #1251c6;
+    background-color:       #c2cdd6;
+    border:                 1px solid #fff;
+}
+.xo-counterpage, .xo-pagarrow {
+    margin:                 0;
+    padding:                .2em .5em;
+    color:                  #000;
+    background-color:       #fff;
+    border:                 1px solid #000;
+}
+.xo-counterpage:hover {}
+.xo-pagarrow {
+    letter-spacing:         0.2em;
+}
